@@ -29,8 +29,17 @@ Untuk lapisannya sebagai berikut.
 ## 3. IP PDU
 IP PDU merupakan singkatan dari IP Protocol Data Unit. Ini adalah istilah dsar dalam jaringan yang mengacu pada satuan data yang ditransfer di antara setiap lapisan dalam model jaringan.
 
-## IPv4
+## 4. IPv4
 - IPv4 merupakan kepanjangan dari Internet Protocol verion 4. Ini adalah salah satu versi utama dari IP yang menyediakan sistem pengalamatan unik untuk setiap perangkat yang terhubung ke internet.
 - IPv4 berisi nilai biner 4-bit (0100).
 - Differented Services (DiffServ) adalah seperangkat aturan jaringan untuk mengelola lalu lintas data dan memberikan layanan yang beragam.
 - Time to Live (TTL) adalah sebuah value yang berfungsi untuk membatasi umur paket. Mengapa dibatasi? Jika tidak, maka kemungkinan data yang berlalu lalang di jaringan menjadi tidak terkendali.
+
+## 5. IPv6
+- IPv6 merupakan versi terbaru dari IPv4. Ini berisi 4-bit biner dengan nilai 0110.
+- IPv6 menggunakan sistem pengalamatan 128-bit, ddengna bentuk seperti ini `2001:0db8:85a3:0000:0000:8a2e:0370:7334`.
+- Memiliki Payload Length (ukuran data aktual) berupa field 16-bit.
+- Tidak seperti IPv4, IPv6 menggunakan Hop Limit, menggantikan TTL pada IPv4.
+- Source dan destination address sama-sama benbentuk field 128-bit.
+
+## 6. IP Vulnerabilities
