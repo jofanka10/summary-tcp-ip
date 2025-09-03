@@ -43,3 +43,14 @@ IP PDU merupakan singkatan dari IP Protocol Data Unit. Ini adalah istilah dsar d
 - Source dan destination address sama-sama benbentuk field 128-bit.
 
 ## 6. IP Vulnerabilities
+IP Vulnerabilites adalah celah keamanan pada IP sehingga peretas dapat menyusup ke dalam jaringan. Ini akan membuat jaringan terganggu, mulai dari bandwith yang melambat, hingga dapat terjadi gangguan dalam jaringan.
+IP Vulnerabilites dapat berupa:
+- ICMP Attacks, yaitu serangan yang berbentuk pesan error. 
+- Denial-of-Service (DoS) attack, yaitu serangan yang menyebabkan lalu lintas data menjadi kewalahan.
+- Distributed Denial-of-Service (DDoS) attacs, jenis serangannya sama dengan DoS attack, namun perbedaannya terletak pada penyebaran dan skalanya. Pada DoS attack, sumbernya hanya pada satu perangkat, sedangkan pada DDoS attack sumbernya pada banyak perangkat.
+- Session Hijacking, yaitu peretas menyamat sebagai pengguna yang sah dalam jaringan.
+- Man-in-the-middle attack (MiTM), yaitu peretas menyusup di tengah-tengah komunikasi. Kedua pihak mengira mereka bertransaksi hanya kedua pihak saja, padahal mereka sedang disusupi peretas.
+- Address spoofing attacks, yaitu peretas memalkukan alamt sumber untuk menyamarkan identitas mereka.
+
+## 7. TCP
+- TCP merupakan singakatan dari Transmission Protool Control. Ini adalah protokol komunikasi yang bertanggung jawab untuk memastikan paket data dikirim dan diterima dengan aman dalam jaringan.
