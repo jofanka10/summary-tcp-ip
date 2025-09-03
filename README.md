@@ -57,9 +57,13 @@ IP Vulnerabilites dapat berupa:
 - TCP merupakan singakatan dari Transmission Protool Control. Ini adalah protokol komunikasi yang bertanggung jawab untuk memastikan paket data dikirim dan diterima dengan aman dalam jaringan.
 - TCP berguna untuk mencegah pengirim membanjiri penerima dengan data.
 - Cara kerja TCP yaitu:
+  
   a. Perangan pengirim mengirim paket SYN ke penerima untuk meminta koneksi.
+
   b. Penerima menerima paket SYN dan meresponsnya dengna paket SYN-ACK.
+
   c. Pengirim merespons dengan paket ACK.
+
 - TCP Attacks dapat berupa:
   a. TCP SYN Flood Attack, dimana TCP SYN diserang peretas dengan IP sumber palsu.
   b.
