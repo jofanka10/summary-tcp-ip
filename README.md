@@ -6,7 +6,7 @@
 
 
 ## 1. OSI Layer
-OSI Layer merupakan isngkatan dair Open System Interconnection Layer. Ini merupakan konsep untuk memahami cara kerja pengiriman data melalui jaringan.
+OSI Layer merupakan singkatan dair Open System Interconnection Layer. Ini merupakan konsep untuk memahami cara kerja pengiriman data melalui jaringan.
 
 Untuk lapisannya sebagai berikut.
 - Application, yaitu tempat aplikasi berinteraksi dengan jaringan. Contoh: HTTP, SSH.
@@ -48,17 +48,17 @@ IP Vulnerabilites adalah celah keamanan pada IP sehingga peretas dapat menyusup 
 IP Vulnerabilites dapat berupa:
 - ICMP Attacks, yaitu serangan yang berbentuk pesan error. 
 - Denial-of-Service (DoS) attack, yaitu serangan yang menyebabkan lalu lintas data menjadi kewalahan.
-- Distributed Denial-of-Service (DDoS) attacs, jenis serangannya sama dengan DoS attack, namun perbedaannya terletak pada penyebaran dan skalanya. Pada DoS attack, sumbernya hanya pada satu perangkat, sedangkan pada DDoS attack sumbernya pada banyak perangkat.
+- Distributed Denial-of-Service (DDoS) attack, jenis serangannya sama dengan DoS attack, namun perbedaannya terletak pada penyebaran dan skalanya. Pada DoS attack, sumbernya hanya pada satu perangkat, sedangkan pada DDoS attack sumbernya pada banyak perangkat.
 - Session Hijacking, yaitu peretas menyamat sebagai pengguna yang sah dalam jaringan.
 - Man-in-the-middle attack (MiTM), yaitu peretas menyusup di tengah-tengah komunikasi. Kedua pihak mengira mereka bertransaksi hanya kedua pihak saja, padahal mereka sedang disusupi peretas.
-- Address spoofing attacks, yaitu peretas memalkukan alamt sumber untuk menyamarkan identitas mereka.
+- Address spoofing attacks, yaitu peretas memalkukan alamat sumber untuk menyamarkan identitas mereka.
 
 ## 7. TCP
-- TCP merupakan singakatan dari Transmission Protool Control. Ini adalah protokol komunikasi yang bertanggung jawab untuk memastikan paket data dikirim dan diterima dengan aman dalam jaringan.
+- TCP merupakan singkatan dari Transmission Protool Control. Ini adalah protokol komunikasi yang bertanggung jawab untuk memastikan paket data dikirim dan diterima dengan aman dalam jaringan.
 - TCP berguna untuk mencegah pengirim membanjiri penerima dengan data.
 - Cara kerja TCP yaitu:
   
-  a. Perangan pengirim mengirim paket SYN ke penerima untuk meminta koneksi.
+  a. Pengirim mengirim paket SYN ke penerima untuk meminta koneksi.
 
   b. Penerima menerima paket SYN dan meresponsnya dengna paket SYN-ACK.
 
@@ -77,7 +77,7 @@ IP Vulnerabilites dapat berupa:
   
 
 ## 8. UDP
-- UDP merupakan singkatan dari User Datagram Protocol. UDP bekerja lebih sederhana dibandingkan dengan TCP, memungkinkan UDP dapat mengirimakn data dengan lebih cepat.
+- UDP merupakan singkatan dari User Datagram Protocol. UDP bekerja lebih sederhana dibandingkan dengan TCP, memungkinkan UDP dapat mengirimkan data dengan lebih cepat.
 - UDP memiliki rentan terkena serangan lebih tinggi daripada TCP.
 - UDP cocok digunakan untuk streamig video dan audio. Selain itu, UDP juga cocok digunakan pada platform game online.
 - UDP attack dapat berupa UDP Flood Attack dan UDP Applification Attack.
