@@ -63,9 +63,23 @@ IP Vulnerabilites dapat berupa:
   b. Penerima menerima paket SYN dan meresponsnya dengna paket SYN-ACK.
 
   c. Pengirim merespons dengan paket ACK.
+  
 
-- TCP Attacks dapat berupa:
-  a. TCP SYN Flood Attack, dimana TCP SYN diserang peretas dengan IP sumber palsu.
-  b.
-  c.
-  d. 
+- TCP attack dapat berupa:
+  
+  a. TCP SYN Flood Attack
+  
+  b. TCP Rest Atatck
+  
+  c. Four-Way Handshake
+  
+  d. TCP Session Hijacking
+  
+
+## 8. UDP
+- UDP merupakan singkatan dari User Datagram Protocol. UDP bekerja lebih sederhana dibandingkan dengan TCP, memungkinkan UDP dapat mengirimakn data dengan lebih cepat.
+- UDP memiliki rentan terkena serangan lebih tinggi daripada TCP.
+- UDP cocok digunakan untuk streamig video dan audio. Selain itu, UDP juga cocok digunakan pada platform game online.
+- UDP attack dapat berupa UDP Flood Attack dan UDP Applification Attack.
+
+
