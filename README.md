@@ -37,13 +37,14 @@ IP PDU merupakan singkatan dari IP Protocol Data Unit. Ini adalah istilah dsar d
 
 ## 5. IPv6
 - IPv6 merupakan versi terbaru dari IPv4. Ini berisi 4-bit biner dengan nilai 0110.
-- IPv6 menggunakan sistem pengalamatan 128-bit, ddengna bentuk seperti ini `2001:0db8:85a3:0000:0000:8a2e:0370:7334`.
+- IPv6 menggunakan sistem pengalamatan 128-bit, dengan bentuk seperti ini `2001:0db8:85a3:0000:0000:8a2e:0370:7334`.
 - Memiliki Payload Length (ukuran data aktual) berupa field 16-bit.
 - Tidak seperti IPv4, IPv6 menggunakan Hop Limit, menggantikan TTL pada IPv4.
 - Source dan destination address sama-sama benbentuk field 128-bit.
 
 ## 6. IP Vulnerabilities
 IP Vulnerabilites adalah celah keamanan pada IP sehingga peretas dapat menyusup ke dalam jaringan. Ini akan membuat jaringan terganggu, mulai dari bandwith yang melambat, hingga dapat terjadi gangguan dalam jaringan.
+
 IP Vulnerabilites dapat berupa:
 - ICMP Attacks, yaitu serangan yang berbentuk pesan error. 
 - Denial-of-Service (DoS) attack, yaitu serangan yang menyebabkan lalu lintas data menjadi kewalahan.
@@ -54,3 +55,13 @@ IP Vulnerabilites dapat berupa:
 
 ## 7. TCP
 - TCP merupakan singakatan dari Transmission Protool Control. Ini adalah protokol komunikasi yang bertanggung jawab untuk memastikan paket data dikirim dan diterima dengan aman dalam jaringan.
+- TCP berguna untuk mencegah pengirim membanjiri penerima dengan data.
+- Cara kerja TCP yaitu:
+  a. Perangan pengirim mengirim paket SYN ke penerima untuk meminta koneksi.
+  b. Penerima menerima paket SYN dan meresponsnya dengna paket SYN-ACK.
+  c. Pengirim merespons dengan paket ACK.
+- TCP Attacks dapat berupa:
+  a. TCP SYN Flood Attack, dimana TCP SYN diserang peretas dengan IP sumber palsu.
+  b.
+  c.
+  d. 
