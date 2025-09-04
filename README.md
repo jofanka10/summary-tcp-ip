@@ -54,7 +54,7 @@ IP Vulnerabilites dapat berupa:
 - Address spoofing attacks, yaitu peretas memalkukan alamat sumber untuk menyamarkan identitas mereka.
 
 ## 7. TCP
-- TCP merupakan singkatan dari Transmission Protool Control. Ini adalah protokol komunikasi yang bertanggung jawab untuk memastikan paket data dikirim dan diterima dengan aman dalam jaringan.
+- TCP merupakan singkatan dari Transmission Protocol Control. Ini adalah protokol komunikasi yang bertanggung jawab untuk memastikan paket data dikirim dan diterima dengan aman dalam jaringan.
 - TCP berguna untuk mencegah pengirim membanjiri penerima dengan data.
 - Cara kerja TCP yaitu:
   
